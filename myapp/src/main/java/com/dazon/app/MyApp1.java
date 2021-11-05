@@ -18,7 +18,7 @@ public class MyApp1 {
         while (true){
             try {
                 Thread.sleep(2000);
-                System.out.println(test1.getNum()+"-----------"+test1.param);
+                System.out.println(test1.getNum());
 
             } catch (InterruptedException e) {
                 e.printStackTrace();

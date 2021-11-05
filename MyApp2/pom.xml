@@ -53,7 +53,7 @@
                         <manifestEntries>
                             <Main-Class>com.dazon.app2.MyApp2</Main-Class>
                             <!--<Premain-Class>com.dazon.agent.MyAgent</Premain-Class>-->
-                            <!--<Agent-Class>com.rickiyang.learn.PreMainTraceAgent</Agent-Class>-->
+                            <Agent-Class>com.dazon.agent.MyAgent</Agent-Class>
                             <Can-Redefine-Classes>true</Can-Redefine-Classes>
                             <Can-Retransform-Classes>true</Can-Retransform-Classes>
                         </manifestEntries>
